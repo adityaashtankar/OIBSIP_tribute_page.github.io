@@ -1,0 +1,420 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+}
+html
+{
+    scroll-behavior: smooth;
+}
+section
+{
+    min-height: 100vh;
+   
+   
+}
+.logo img
+{
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: screen;
+    transform: translateX(-55em) translateY(-5px);
+    animation: visi 1s 1 ease-in-out;
+
+}
+nav
+{
+    justify-content: right;
+    display: flex;
+    overflow-y: hidden;
+    align-items: center;
+    height:80px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+nav ul li 
+{
+    display: inline;
+    list-style-type: none;
+    margin-right: 40px;
+  
+
+}
+nav ul li a
+{
+    margin-right: 20px;
+    font-size: 17px;
+    color: white;
+    font-family:arial;
+    text-decoration: none;
+    animation: visi 1s 1 ease-in-out;
+}
+.first
+{
+    background-color: black;
+    background-image: url(tribute1.jpg) ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+
+.head
+{
+   
+    width: 700px;
+    transform: translateY(10em);
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    height: 400px;
+}
+.head h1
+{
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+  transform: translateY(80px) translateX(-65px);
+  animation: visi 2s 1 ease-in-out;
+ 
+}
+.head h2
+{
+    font-size: 75px;
+    font-weight: bolder;
+    color: white;
+    
+     /* -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    background-image:linear-gradient(white,rgb(209, 6, 6)); */
+    animation: visi 2s 1 ease-in-out;
+   
+}
+@keyframes visi {
+    from{
+    opacity: 0;
+    } to 
+    {
+    opacity: 1;
+    }
+    
+}
+.head p
+{
+    color: grey;
+    font-size: 15px;
+    margin-left: 150px;
+    transform: translateY(-60px);
+    word-spacing: 2px;
+    animation: visi 2s 1 ease-in-out;
+}
+
+.second
+{
+   display: grid;
+   background-color:white;
+   grid-template-rows: repeat(3,1fr);
+   row-gap: 10px;
+   padding: 10px;
+   justify-items: center;
+   
+}
+
+.box{
+  
+    width: 95%;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+
+}
+.box img {
+    width: 280px;
+    height: 270px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 5px;
+
+   
+    
+   
+}
+.box p
+{
+    padding: 20px;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(30px);
+    color: black;
+}
+.box h1
+{
+    transform: translateY(-120px) translateX(70px);
+    font-size: 30px;
+    color: black;
+   
+    
+   
+}
+.box h1::before {
+    content: '';
+    width: 11em;
+    position: relative;
+    
+    height: 5px;
+    border-radius: 40px;
+    background-color: black;
+  
+}
+.test img
+{
+    transform: translateX(70em);
+}
+.test p
+{
+    transform: translateX(-18em);
+}
+.test h1
+{
+    transform:  translateY(-130px) translateX(-230px);
+}
+
+.Odi img
+{
+    width: 330px;
+    height:270px;
+    transform: translateX(30px);
+}
+.T20 img
+{
+    width: 330px;
+    transform: translateX(30px);
+}
+.third
+{
+   display: grid;
+   
+   grid-template-columns: repeat(3,1fr);
+   padding: 25px;
+   background-color:black;
+   justify-items: center;
+   column-gap:10px;
+   
+}
+.col1
+{
+   
+    width: 450px;
+    height: 630px;
+}
+.achivements
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: 18px;
+    line-height:28px;
+    padding-top: 0;
+}
+.records
+{
+    color: white;
+    
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: 18px;
+    line-height:28px;
+    padding-top: 0; 
+}
+.image
+{
+
+ overflow: hidden;
+ width: 420px;
+height: 600px;
+}
+.image img
+{
+    width: 400px;
+    height: 580px;
+  
+    border-radius: 10px;
+    border: 3px solid black;
+    transition: all 0.3s ease-in-out;
+    
+}
+.image img:hover{
+    scale: 1.1;
+   
+}
+.know 
+{
+ width: 100px;
+ height: 50px;
+ cursor: pointer;
+ background-color: rgb(103, 225, 225);
+ border: 2px solid white; 
+ border-radius: 50px; 
+ font-weight: bolder;
+ transform: translateY(-100px) translateX(75em);
+ font-size: 15px;
+}
+
+.fourth
+{
+   display: grid;
+   background-color:white;
+   grid-template-columns: repeat(2,1fr);
+   justify-items: center;
+   
+}
+.tray1
+{
+  
+    width: 400px;
+    height: 500px;
+}
+.vk
+{
+    width: 400px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: -30px;
+}
+.vk img
+{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.head1
+{
+    width: 100%;
+    height: 90px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left:14em;
+    font-size: 22px;
+}
+.head1::after {
+    content: '';
+    width: 11em;
+    left: -14em;
+    position: relative;
+    top: 1.0em;
+    height: 5px;
+    border-radius: 40px;
+    background-color: black;
+  
+}
+.books
+{
+   width:140vh;
+   height: 600px;
+   transform: translateX(-30px);
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+   row-gap: 10px;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   column-gap: 10px;
+
+}
+.book1
+{
+    
+    height:295px;
+    text-align: center;
+  
+}
+.book1 p
+{
+    color: black;
+    margin-left: 170px;
+    font-size: 20px;
+    
+}
+.book1 img{
+    width: 130px;
+    height: 200px;
+    transform: translateX(-70px) translateY(-100px);
+}
+.book1 i
+{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+    transform: translateX(210px) translateY(-210px);
+    border-radius: 50%;
+}
+.book1 a
+{
+    text-decoration: none;
+    color:black;
+    
+}
+.book3
+{
+   margin-top: 20px;
+}
+.book4
+{
+    margin-top: 35px;
+}
+.book5
+{
+    margin-top:40px;
+   
+}
+.book6
+{
+    margin-top: 40px;
+}
+
+.end {
+    color: #ddd;
+    width: 100%;
+    transform: translateY(40px);
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    font-size: 20px;
+    background-color: black;
+    height: 80px;
+
+}
+.end2 a
+{
+    height: 50px;
+    text-decoration: none;
+    color: white;
+}
+.end2 a:hover
+{
+    color: skyblue;
+}
+
+.end i
+{
+    margin-right: 30px;
+   
+}
